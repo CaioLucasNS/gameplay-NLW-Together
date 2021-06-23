@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { 
     View, 
     Text, 
@@ -7,6 +7,7 @@ import {
     StatusBar
 } from 'react-native';
 
+import { ButtonIcon } from '../../components/ButtonIcon'
 import IllustrationImg from '../../assets/illustration.png'
 import { styles } from './styles';
 
@@ -36,6 +37,11 @@ export function SignIn() {
                     Crie grupos para jogar seus games {`\n`}
                     favoritos com seus amigos
                 </Text>
+
+                <ButtonIcon 
+                    title="Entrar com Discord" 
+                    activeOpacity={.7}
+                />
             </View>
         </View>
     );
