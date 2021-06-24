@@ -22,7 +22,7 @@ export function SignIn() {
                 <Text style={styles.title}>
                     Conecte-se {'\n'}
                     e organize suas{'\n'}
-                    jogatinas
+                    jogatinas 
                 </Text>
 
                 <Text style={styles.subtitle}>
